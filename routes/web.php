@@ -17,6 +17,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/reactjs', function(){
+
+    return view('reactjs');
+
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

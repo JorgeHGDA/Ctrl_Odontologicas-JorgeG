@@ -79,6 +79,12 @@
                 </div>
             @endif
 
+            <div id="adsi">
+
+
+            
+            </div>
+
             <div class="content">
                 <div class="title m-b-md">
                     Laravel
@@ -93,8 +99,12 @@
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://vapor.laravel.com">Vapor</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="reactjs"> ReactJS </a>
                 </div>
             </div>
         </div>
+        
     </body>
+    <script src="js/apps.js"></script>
 </html>
+ 
