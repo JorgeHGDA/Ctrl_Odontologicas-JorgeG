@@ -10,3 +10,208 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
+
+
+# Creado por https://www.toptal.com/developers/gitignore/api/windows,composer,laravel,react,node,thinkphp,sass
+# Edite en https://www.toptal.com/developers/gitignore?templates=windows,composer,laravel,react,node,thinkphp,sass
+
+### Compositor ###
+composer.phar
+/vendedor/
+
+# Confirme el archivo de bloqueo de su aplicación https://getcomposer.org/doc/01-basic-usage.md#commit-your-composer-lock-file-to-version-control
+# Puede optar por ignorar un archivo de bloqueo de biblioteca http://getcomposer.org/doc/02-libraries.md#lock-file
+# composer.lock
+
+### Laravel ###
+node_modules /
+npm-debug.log
+yarn-error.log
+
+# Laravel 4 específico
+bootstrap / compiled.php
+aplicación / almacenamiento /
+
+# Laravel 5 y Lumen específico
+público / almacenamiento
+publico / caliente
+
+# Laravel 5 y Lumen específico con ruta pública modificada
+public_html / storage
+public_html / caliente
+
+almacenamiento / *. clave
+.env
+Homestead.yaml
+Homestead.json
+/.vagabundo
+.phpunit.result.cache
+
+# Ayudante IDE de Laravel
+*.meta.*
+_ide_ *
+
+### Nodo ###
+# Registros
+registros
+*.Iniciar sesión
+npm-debug.log *
+yarn-debug.log *
+yarn-error.log *
+lerna-debug.log *
+
+# Informes de diagnóstico (https://nodejs.org/api/report.html)
+informe. [0-9] *. [0-9] *. [0-9] *. [0-9] *. json
+
+# Datos en tiempo de ejecución
+pids
+* .pid
+*.semilla
+* .pid.lock
+
+# Directorio para librerías instrumentadas generadas por jscoverage / JSCover
+lib-cov
+
+# Directorio de cobertura utilizado por herramientas como estambul
+cobertura
+* .lcov
+
+# cobertura de prueba de Nueva York
+.nyc_output
+
+# Almacenamiento intermedio de Grunt (https://gruntjs.com/creating-plugins#storing-task-files)
+.gruñido
+
+# Directorio de dependencias de Bower (https://bower.io/)
+bower_components
+
+# configuración de node-waf
+.lock-wscript
+
+# Complementos binarios compilados (https://nodejs.org/api/addons.html)
+construir / liberar
+
+# Directorios de dependencias
+jspm_packages /
+
+# Archivos de declaración de TypeScript v1
+tipificaciones /
+
+# Caché de TypeScript
+* .tsbuildinfo
+
+# Directorio de caché npm opcional
+.npm
+
+# Caché eslint opcional
+.eslintcache
+
+# Caché de micropaquetes
+.rpt2_caché /
+.rts2_cache_cjs /
+.rts2_cache_es /
+.rts2_cache_umd /
+
+# Historial de REPL opcional
+.node_repl_history
+
+# Salida de 'paquete npm'
+* .tgz
+
+# Archivo de integridad del hilo
+.yarn-integridad
+
+# archivo de variables de entorno dotenv
+.env.test
+
+# caché de paquete de paquetes (https://parceljs.org/)
+.cache
+
+# Salida de compilación de Next.js
+.siguiente
+
+# Nuxt.js compila / genera salida
+.nuxt
+dist
+
+# Archivos Gatsby
+.cache/
+# Comente en la línea pública si su proyecto usa Gatsby y no Next.js
+# https://nextjs.org/blog/next-9-1#public-directory-support
+# público
+
+# salida de compilación de vuepress
+.vuepress / dist
+
+# Directorios sin servidor
+.servidor /
+
+# Caché de FuseBox
+.caja de fusibles/
+
+# Archivos locales de DynamoDB
+.dynamodb /
+
+# Archivo de puerto TernJS
+.puerto de popa
+
+# Almacena las versiones de VSCode utilizadas para probar las extensiones de VSCode
+.vscode-prueba
+
+### reaccionar ###
+.DS_ *
+**/*.apoyo.*
+**/*.espalda.*
+
+node_modules
+
+*.sublime*
+
+psd
+pulgar
+bosquejo
+
+### Sass ###
+.sass-cache /
+* .css.map
+* .sass.map
+* .scss.map
+
+### ThinkPHP ###
+# plantilla gitignore para ThinkPHP v3.2.3
+# sitio web: http://www.thinkphp.cn/
+
+# Registros y archivos de caché
+/ Aplicación / Runtime /
+
+# Archivo de configuración común
+/Application/Common/Conf/config.php
+
+
+### Windows ###
+# Archivos de caché de miniaturas de Windows
+Thumbs.db
+Thumbs.db: encriptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Archivo de volcado
+* .stackdump
+
+# Archivo de configuración de carpeta
+[Dd] esktop.ini
+
+# Papelera de reciclaje utilizada en archivos compartidos
+$ RECICLAJE.BIN /
+
+# Archivos de Windows Installer
+*.taxi
+* .msi
+* .msix
+* .msm
+* .msp
+
+# Accesos directos de Windows
+* .lnk
+
+# Fin de https://www.toptal.com/developers/gitignore/api/windows,composer,laravel,react,node,thinkphp,sass
