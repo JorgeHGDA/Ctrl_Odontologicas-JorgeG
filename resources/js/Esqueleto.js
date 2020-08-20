@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import navegacion from './components/navegacion';
+import Navegacion from './components/Navegacion';
 
-const Esqueleto = ()=> {
+const Esqueleto = () => {
 
     return (
 
         <div>
             
-            <navegacion Nombre="   Jorge" /> 
+            <Navegacion Nombre= "Jorge" /> 
         
         </div>
 

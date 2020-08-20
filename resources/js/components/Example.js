@@ -19,7 +19,7 @@ function Example() {
 
 export default Example;
 
-if (document.getElementById('adsi')) {
-    ReactDOM.render(<Example />, document.getElementById('adsi'));
+if (document.getElementById('contenido')) {
+    ReactDOM.render(<Example />, document.getElementById('contenido'));
     //De esta forma todo lo que tenga la funcion Example se va a visualizar en el id especificado anteriormente
 } 

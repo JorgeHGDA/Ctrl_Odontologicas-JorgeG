@@ -1,17 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const navegacion = (props)=> {
+const Navegacion = (props)=> {
 
     return (
 
-    <div>Hello Soy una  Navegacion Bienvenido{props.Nombre}</div>
+    <Button color="primary">Hello Bienvenido: {props.Nombre}</Button>
 
     );
 
 
 }
 
-export default navegacion;
+export default Navegacion;
 
-ReactDOM.render(<navegacion></navegacion>, document.getElementById('contenido'));

@@ -79,7 +79,7 @@
                 </div>
             @endif
 
-            <div id="adsi">
+            <div id="contenido">
 
 
             
@@ -105,6 +105,6 @@
         </div>
         
     </body>
-    <script src="js/apps.js"></script>
+    <script src="js/app.js"></script>
 </html>
  
