@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Navegacion from './components/Navegacion';
 
+
 const Esqueleto = () => {
 
     return (
@@ -19,4 +20,4 @@ const Esqueleto = () => {
 
 export default Esqueleto;
 
-ReactDOM.render(<Esqueleto />, document.getElementById('contenido'));
+ReactDOM.render(<Esqueleto />, document.getElementById("contenido1"));

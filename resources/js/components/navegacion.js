@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const Navegacion = (props)=> {
+
+const Navegacion = (props) => {
 
     return (
 
@@ -13,4 +14,6 @@ const Navegacion = (props)=> {
 }
 
 export default Navegacion;
+
+actDOM.render(<Esqueleto />, document.getElementById("contenido1"));
 

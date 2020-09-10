@@ -7,8 +7,7 @@
 </head>
 <body>
 
-  <div id="contenido">
-    
+  <div id="contenido1">
   </div>
     
 </body>

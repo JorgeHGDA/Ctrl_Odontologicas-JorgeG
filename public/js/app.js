@@ -65792,7 +65792,9 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
  */
 
 
-__webpack_require__(/*! ./components/Example */ "./resources/js/components/Example.js");
+__webpack_require__(/*! ./components/Navegacion */ "./resources/js/components/Navegacion.js");
+
+__webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module '.Esqueleto'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
 
 /***/ }),
 
@@ -65841,10 +65843,10 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 /***/ }),
 
-/***/ "./resources/js/components/Example.js":
-/*!********************************************!*\
-  !*** ./resources/js/components/Example.js ***!
-  \********************************************/
+/***/ "./resources/js/components/Navegacion.js":
+/*!***********************************************!*\
+  !*** ./resources/js/components/Navegacion.js ***!
+  \***********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -65857,27 +65859,14 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function Example() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "container"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "row justify-content-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-md-8"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "card"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "card-header"
-  }, "Example Component"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "card-body"
-  }, "I'm an example component!")))));
-}
+var Navegacion = function Navegacion(props) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Button, {
+    color: "primary"
+  }, "Hello Bienvenido:");
+};
 
-/* harmony default export */ __webpack_exports__["default"] = (Example);
-
-if (document.getElementById('example')) {
-  react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Example, null), document.getElementById('example'));
-}
+/* harmony default export */ __webpack_exports__["default"] = (Navegacion);
+react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Navegacion, null), document.getElementById("contenido"));
 
 /***/ }),
 
@@ -65899,8 +65888,8 @@ if (document.getElementById('example')) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\Humberto\Documents\JORGE SENA\Proyecto Citas Odontologicas\Proyecto_ControlCitas-Jorge Gomez\proyecto-react\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\Humberto\Documents\JORGE SENA\Proyecto Citas Odontologicas\Proyecto_ControlCitas-Jorge Gomez\proyecto-react\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\Humberto\Documents\JORGE SENA\Proyecto Citas Odontologicas\ControlCitas-Jorge Gomez\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\Humberto\Documents\JORGE SENA\Proyecto Citas Odontologicas\ControlCitas-Jorge Gomez\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
