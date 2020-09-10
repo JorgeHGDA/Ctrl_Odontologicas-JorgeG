@@ -7,9 +7,9 @@ function Example() {
             <div className="row justify-content-center">
                 <div className="col-md-8">
                     <div className="card">
-                        <div className="card-header">Hello Jorge :)</div>
- 
-                        <div className="card-body">Espero y te Encuentres muy Bien:)</div>
+                        <div className="card-header">Example Component</div>
+
+                        <div className="card-body">I'm an example component!</div>
                     </div>
                 </div>
             </div>
@@ -19,7 +19,6 @@ function Example() {
 
 export default Example;
 
-if (document.getElementById('contenido')) {
-    ReactDOM.render(<Example />, document.getElementById('contenido'));
-    //De esta forma todo lo que tenga la funcion Example se va a visualizar en el id especificado anteriormente
-} 
+if (document.getElementById('example')) {
+    ReactDOM.render(<Example />, document.getElementById('example'));
+}
